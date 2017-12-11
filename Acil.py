@@ -38,30 +38,34 @@ import base64
 import ast
 
 cl = Acil.LINE()
-cl.login(token="EngJ8UpjMJYCRh9cEJ9a.aOTiG1carSOCx+g/nMjvcG.p6cBwZOVjDq2QeUFMq1JB+0jymtnYNWwF9MpFDRBJIw=")
+cl.login(token="EnkzbO0iDLgBKert3KJb.pB8C3/IyM9y9gzD0XwjiQW.me9N57VbKsWcqNdkeuxqqAZooBizoDMDnYuPudt5xSs=")
 cl.loginResult()
 
 kt = Acil.LINE()
-kt.login(token="EnUqdCjJ8fSjexqi8LJc.iZNLcdioefZ+mSjor8gkJa.0mjj1Hy5s50mWya0uJjmXBNDqLNJRVjFR62q0aIC+qo=")
+kt.login(token="Enfwvs2iNEzXdOTDWUd2.zR7Y3a980GBCT4XneXehCG.3N6LrMcoAhFyxeAjCFNCI6YSlvlA8k4nvzB0r6BWz2E=")
 kt.loginResult()
 
 ks = Acil.LINE()
-ks.login(token="Ent9w6jOjo6GVfabvxz0.5S0QMY3ovFEQo09j0NcUaa.jWzgoDEYyeWgqihbWOgS5Jce3qZn9JcTEKs12TgREts=")
+ks.login(token="EnFtWzWpOpqWUJB5az55.jE7ldByNKjcBbj2Oi4B+fq.NRoDnvCJ908HZmeVjKdFMGaFkit+uxc1DQGFijGmUko=")
 ks.loginResult()
 
 ki = Acil.LINE()
-ki.login(token="EnA1jib5ECXxIGHUuBOc.hN6QvS3UksU4kbHSuhgIVa.SneVjsMU7dRMxEoytB5+wdHNB4KIIGKQ0n7E7tGv9Ec=")
+ki.login(token="EnIGC4Y9RGSKeSsaW9Z8.CLTZz5zxtOnONKbP2xTgka.0guc9vPvFb1ZZV9SNky+kKqWlF4Vq1qIngva7Ooev4M=")
 ki.loginResult()
 
 kk = Acil.LINE()
-kk.login(token="EnsKKfiWDmzHGrqNKGod.escIT9YogRXrqxPKWvinxq.yAymj5N16QE4+NsbyVbyBQNBPADzPXVNHBPf4VPC3+c=")
-kk.loginResult()
+kk.login(token="En29GKcLym3mnkpDBNVf.S11TwqZdLwk2FDzwN2cTxW.lJzJFUK8d90lejzlrxvAHqaMOzKw6cR+r5zBJr1WTNM=")
+kk.loginResult()	
 
 kc = Acil.LINE()
-kc.login(token="EnEpIrNVf2awq6JeQwQ7.rBY3JsgaAqDiXr2VDbxQrW.TAt3gQzqUkrxfFukmIa2+h5o+hqGtXaB+Ym4+D6qLDA=")
+kc.login(token="Enuy3yS2bJAfyR9hEvD6.96pFqMPuKnahGp+ImKMCXG.Nx0b9jCqs4d0Brq2vZu2Z7E3V9eWwaJgqtAsNV+LN6Q=")
 kc.loginResult()
 
-print "Acil"
+satpam = Acil.LINE()
+satpam.login(token="EnTe9VwdGWvXriT78o94.nNXATxX0zaQbdaGYzNelva.Yyz6VrtNVmoQYBrYoMi2aKycslMvFpJXiJg3kntDOEI=")
+satpam.loginResult()
+
+print "AR"
 reload(sys)
 sys.setdefaultencoding('utf-8')
 helpMessage= """\n
@@ -89,7 +93,7 @@ helpMessage= """\n
 🔘 Bot1-6 backup |╬|
 🔘 Group name:   |╬|
 ═╬════════►∆∆
-   🔓D̸͟͞e̸͟͞m̸͟͞o̸͟͞t̸͟͞e̸͟͞d̸͟͞.🔓
+   🔓D̸͟͞e̸͟͞m̸͟͞o̸͟͞t̸͟͞e̸͟͞d̸͟͞🔓
 ═╬════════►
 |╬| Admin on @
 |╬| Expel on @
@@ -283,7 +287,7 @@ helpMessage= """\n
 🔘Turn off bots🔘
 ●▬▬▬▬๑۩Special Thanks۩๑▬▬▬▬▬●
 P̸͟͞O̸͟͞W̸͟͞E̸͟͞R̸͟͞ B̸͟͞Y̸͟͞ T̸͟͞C̸͟͞R̸͟͞
-Edited̸͟͞ by A̸͟͞C̸͟͞I̸͟͞L̸͟͞A̸͟͞R̸͟͞D̸͟͞
+Edited̸͟͞ by A̸͟͞R̸͟͞
    ●▬▬▬▬๑۩FuckMyBot۩๑▬▬▬▬▬●
 
 """
@@ -346,15 +350,16 @@ textspeech= """╔═════════════════
 ╠➩ 'cy' : 'Welsh'
 ╚═════════════════
 """
-
 KAC=[cl,ki,kk,kc,ks,kt]
+DEF=[ki,kk,kc,ks,kt]
+kicker=[satpam]
 mid = cl.getProfile().mid
 Amid = ki.getProfile().mid
 Bmid = kk.getProfile().mid
 Cmid = kc.getProfile().mid
 Dmid = ks.getProfile().mid
 Emid = kt.getProfile().mid
-#Fmid = kl.getProfile().mid
+Smid = satpam.getProfile().mid
 
 protectname = []
 protecturl = []
@@ -364,8 +369,8 @@ autoinvite = []
 autoleaveroom = []
 targets = []
 Bots=[mid,Amid,Bmid,Cmid,Dmid,Emid]
-admin = ["u028b4883508046ca1c5ff1be3662550a"]
-owner = ["u028b4883508046ca1c5ff1be3662550a"]
+admin = ["u3dbf1cdfe8989bd63d199774c56248ab"]
+owner = ["u3dbf1cdfe8989bd63d199774c56248ab"]
 wait = {
     'contact':False,
     'autoJoin':True,
@@ -375,7 +380,7 @@ wait = {
     'autoAdd':False,
     'message':"Thanks for add Me",
     "lang":"JP",
-    "comment":"AutoLike by Acil http://line.me/ti/p/eIlSELYxLR",
+    "comment":"AutoLike by AR http://line.me/ti/p/~riyans379",
     "welmsg":"welcome to group",
     "commentOn":True,
     "commentBlack":{},
@@ -1184,9 +1189,9 @@ def bot(op):
                        time.sleep(0.2)
                        X = kicker.getGroup(op.param1)             
                        X.preventJoinByTicket = True
-                       kl.kickoutFromGroup(op.param1,[op.param2])
+                       satpam.kickoutFromGroup(op.param1,[op.param2])
                        kicker.kickoutFromGroup(op.param1,[op.param2])
-                       kl.leaveGroup(op.param1)
+                       satpam.leaveGroup(op.param1)
                        kicker.updateGroup(X)
                    except Exception, e:
                             print e
